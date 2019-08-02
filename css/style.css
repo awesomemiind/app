@@ -43,3 +43,15 @@ input {
     color: white;
     border-bottom: 1px solid white !important;
 }
+
+span {
+    color: white;
+}
+
+.cardbody {
+    margin-top: 30px;
+}
+
+#buttonsubmit {
+    margin-top: 50px;
+}
