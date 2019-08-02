@@ -12,7 +12,8 @@ body, html {
     }
 
     .container {
-        width: 95% !important;
+        width: 100vh !important;
+        height: 100vh !important;
     }
 }
 

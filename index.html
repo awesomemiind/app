@@ -21,7 +21,7 @@
                 </div>
                 <div class="cardbody container">
                     <div class="row">
-                        <form method="POST" action="functions/login.php" class="col s12">
+                        <form method="POST" action="functions/login.php" class="col s12" onsubmit="return validaForm(this)">
                             <div class="row">
                                 <div class="input-field col s12">
                                     <input type="text" name="username" id="username" class="validate">
@@ -46,6 +46,21 @@
         </div>
     </div>
 </div>
+<script>
+function validaForm(frm) {
+    if(frm.username.value == "" || frm.username.value == null || frm.username.value.lenght < 3) {
+        frm.username.focus();
+        M.toast({html: 'Por favor, preencha seu username'})
+        return false;
+    }
+
+    if(frm.password.value == "" || frm.password.value == null || frm.password.value.lenght < 3) {
+        frm.password.focus();
+        M.toast({html: 'Por favor, preencha seu password'})
+        return false;
+    }
+}
+</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
