@@ -1,0 +1,11 @@
+                           <div class="row col s12">
+                                <div class="input-field col s12" style="color: white;">
+                                    <input type="text" name="username" id="username" class="validate">
+                                    <label for="username" style="color: white;"><i class="fas fa-user"></i> &nbsp; &nbsp; Username</label>
+                             </div>
+                          <div class="row">
+                             <div class="input-field col s6" style="color: white;">
+                                 <input type="password" name="password" id="password" class="validate">
+                                 <label for="password" style="color: white"><i class="fas fa-lock"></i> &nbsp; &nbsp; Password</label>
+                               </div>
+                           </div>

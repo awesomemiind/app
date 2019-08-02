@@ -1,0 +1,45 @@
+.container {
+    font-family: 'Poppins', sans-serif;
+}
+body, html {
+    background-color: #EBEFF0;
+    color: white;
+}
+/* CELULAR */
+@media (min-width:480px) {
+    .cardlogin {
+        height: 100vh;
+    }
+
+    .container {
+        width: 95% !important;
+    }
+}
+
+/* PC */
+@media (min-width:801px) {
+    .cardlogin {
+
+    }
+}
+
+.cardlogin {
+    background-color: #9F3FF4;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.cardheader {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#icone {
+    font-size: 123px;
+    margin-bottom: 20px;
+}
+
+input {
+    color: white;
+    border-bottom: 1px solid white !important;
+}
