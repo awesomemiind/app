@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "homepage": "https://github.com/awesomemiind/app",
+  "authors": [
+    "awesomemiind <spamawesomemiind@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^1.0.0",
+    "jquery": "^3.4.1",
+    "fontAwesome": "fontawesome#^5.10.0"
+  }
+}
